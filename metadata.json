@@ -1,0 +1,6 @@
+{
+  "name": "The Private Reserve",
+  "description": "A premium canine neuro-aesthetic sensory regulation landing page and biological profiling capture by Paws & Psyche.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
