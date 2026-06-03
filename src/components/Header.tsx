@@ -16,18 +16,11 @@ export default function Header({ registryCount }: HeaderProps) {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         {/* Brand identity */}
         <div className="flex items-center gap-3">
-          <div className="relative flex items-center justify-center w-10 h-10 border border-[#D4AF37]/30 rounded-full bg-[#2e1a47]/50">
-            <Orbit className="w-5 h-5 text-[#D4AF37] animate-spin-slow" />
-            <div className="absolute inset-0 border border-[#D4AF37]/10 rounded-full scale-110"></div>
-          </div>
-          <div>
-            <h1 className="font-serif text-lg tracking-[0.2em] text-[#f5f1ea] font-medium uppercase flex items-center gap-2">
-              Paws <span className="text-[#D4AF37]">&</span> Psyche
-            </h1>
-            <p className="text-[9px] font-mono tracking-[0.25em] text-[#D4AF37]/75 uppercase">
-              Canine Neuro-Aesthetics Lab
-            </p>
-          </div>
+          <img 
+            src="/logo.png" 
+            alt="Paws & Psyche Official Logo" 
+            className="h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.3)]"
+          />
         </div>
 
         {/* Exclusive status badge */}
