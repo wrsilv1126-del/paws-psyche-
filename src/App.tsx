@@ -12,8 +12,7 @@ import ProfilingForm from './components/ProfilingForm';
 import ThankYouView from './components/ThankYouView';
 import RegistryLedger from './components/RegistryLedger';
 
-// Use a direct path string reference for our generated cinematic hero asset
-const heroImage = '/src/assets/images/private_reserve_hero_1780443894628.png';
+import heroImage from './assets/images/private_reserve_hero_1780443894628.png';
 
 export default function App() {
   const [viewState, setViewState] = useState<'landing' | 'success'>('landing');
